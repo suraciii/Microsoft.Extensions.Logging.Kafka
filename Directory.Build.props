@@ -14,6 +14,7 @@
     <MicrosoftExtensionsVersion>2.1.1</MicrosoftExtensionsVersion>
     
     <!-- sdk -->
+    <ConfluentKafkaVersion>1.0.0-experimental-6</ConfluentKafkaVersion>
     <SourceLinkGitHubVersion>1.0.0-beta-63127-02</SourceLinkGitHubVersion>
     <MessagePackVersion>1.7.3.4</MessagePackVersion>
     
