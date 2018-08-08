@@ -6,9 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="$(ConfluentKafkaVersion)" />
+    <PackageReference Include="MessagePack" Version="$(MessagePackVersion)" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="$(MicrosoftExtensionsVersion)" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="$(MicrosoftExtensionsVersion)" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageReference Include="System.Threading.Channels" Version="$(DotNetCoreFxVersion)" />
   </ItemGroup>
 
 </Project>
